@@ -1,0 +1,46 @@
+{
+	"name": "keep-me-focus",
+	"version": "1.0.0",
+	"description": "A productivity-focused browser extension to block distracting websites, limit time spent online, and hide content like YouTube Shorts. Includes rule presets, URL pattern matching, and customizable access controls.",
+	"license": "MIT",
+	"scripts": {
+		"build:chrome": "webpack --mode production --env target=chrome",
+		"dev:chrome": "webpack --mode development --devtool source-map --watch --env target=chrome",
+		"build:firefox": "webpack --mode production --env target=firefox",
+		"dev:firefox": "webpack --mode development --devtool source-map --watch --env target=firefox",
+		"clean": "rm -rf dist/"
+	},
+	"devDependencies": {
+		"@tailwindcss/postcss": "^4.1.11",
+		"@types/chrome": "^0.0.328",
+		"@types/sortablejs": "^1.15.8",
+		"@types/webextension-polyfill": "^0.12.3",
+		"autoprefixer": "^10.4.21",
+		"copy-webpack-plugin": "^13.0.0",
+		"css-loader": "^7.1.2",
+		"postcss": "^8.5.6",
+		"postcss-loader": "^8.1.1",
+		"style-loader": "^4.0.0",
+		"tailwindcss": "^4.1.11",
+		"ts-loader": "^9.5.2",
+		"typescript": "^5.8.3",
+		"webextension-polyfill": "^0.12.0",
+		"webpack": "^5.99.9",
+		"webpack-cli": "^6.0.1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/ararifdotme/keep-me-focus.git"
+	},
+	"keywords": [],
+	"author": "A R Arif <ararif724@gmail.com> (https://ararif.me)",
+	"bugs": {
+		"url": "https://github.com/ararifdotme/keep-me-focus/issues"
+	},
+	"homepage": "https://github.com/ararifdotme/keep-me-focus#readme",
+	"dependencies": {
+		"@types/dompurify": "^3.0.5",
+		"dompurify": "^3.2.6",
+		"sortablejs": "^1.15.6"
+	}
+}

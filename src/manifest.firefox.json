@@ -1,0 +1,10 @@
+{
+	"background": {
+		"scripts": ["scripts/background.js"]
+	},
+	"browser_specific_settings": {
+		"gecko": {
+			"id": "keep_me_focus@ararif.me"
+		}
+	}
+}
