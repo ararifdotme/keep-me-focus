@@ -152,7 +152,7 @@ export class YouTubeShortsService {
 
     allLinks.forEach(link => {
       // Find the parent container that represents the shorts section
-      let shortContainer = link.closest('ytd-reel-shelf-renderer, ytd-rich-section-renderer');
+      let shortContainer = link.closest('ytd-video-renderer, ytd-reel-shelf-renderer, ytd-rich-section-renderer');
 
       if (!shortContainer) {
         // If no specific container found, try to find a short item container
