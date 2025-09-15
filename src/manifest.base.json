@@ -2,7 +2,7 @@
 	"manifest_version": 3,
 	"name": "Keep Me Focus",
 	"version": "1.0.0",
-	"description": "A productivity-focused browser extension to block distracting websites, limit time spent online, and hide content like YouTube Shorts. Includes rule presets, URL pattern matching, and customizable access controls.",
+	"description": "Boost productivity by blocking distracting sites, limiting online time, and hiding Shorts with flexible rules.",
 	"permissions": ["storage", "tabs", "scripting"],
 	"host_permissions": ["<all_urls>"],
 	"options_page": "html/options.html",
