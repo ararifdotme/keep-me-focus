@@ -19,7 +19,7 @@ export default function (env = {}) {
       'scripts/alert': './src/scripts/alert.ts',
     },
     output: {
-      path: path.resolve('dist', target),
+      path: path.resolve('dist', `keep-me-focus-${target}`),
       filename: '[name].js',
       clean: true,
     },
