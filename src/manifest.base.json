@@ -3,7 +3,7 @@
 	"name": "Keep Me Focus",
 	"version": "1.0.0",
 	"description": "Boost productivity by blocking distracting sites, limiting online time, and hiding Shorts with flexible rules.",
-	"permissions": ["storage", "tabs", "scripting"],
+	"permissions": ["storage", "tabs"],
 	"host_permissions": ["<all_urls>"],
 	"options_page": "html/options.html",
 	"content_scripts": [
